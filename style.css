@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    grid-template-rows: 138px auto 68px;
+}
+#header{
+    text-align: center;
+    background-color: gray;
+    padding: 5px;
+    margin: 0px;
+}
+.menuPrincipal{
+    background-color: azure;
+    padding: 10px;
+    margin: 10px;
+}
+.menuPrincipalItem{
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    margin:0px;
+    display: inline;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+#principal{
+    text-align: center;
+    margin: 0px;
+}
+.menuPrincipalItem:hover{
+    height: 150px;
+    background-color: rgb(233, 201, 141);
+    color: brown;
+}
+#pie{
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 15px;
+    background-color: gainsboro;
+    color: rgb(83, 83, 83);
+}
+#canvas{
+    margin: 0px;
+    position: relative;
+    height: 500px;
+    width: 750px;
+    background-color: black;
+}
