@@ -9,6 +9,7 @@ body{
     margin: 0px;
 }
 .menuPrincipal{
+    display:flex;
     background-color: azure;
     padding: 10px;
     margin: 10px;
@@ -29,6 +30,7 @@ a {
     margin: 0px;
 }
 .menuPrincipalItem:hover{
+    margin-top: -10px;
     height: 150px;
     background-color: rgb(233, 201, 141);
     color: brown;
