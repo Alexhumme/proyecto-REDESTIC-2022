@@ -9,7 +9,7 @@ body{
     margin: 0px;
 }
 .menuPrincipal{
-    display:flex;
+    display:block;
     background-color: azure;
     padding: 10px;
     margin: 10px;
@@ -30,8 +30,7 @@ a {
     margin: 0px;
 }
 .menuPrincipalItem:hover{
-    margin-top: -10px;
-    height: 150px;
+    margin-inline: 10px;
     background-color: rgb(233, 201, 141);
     color: brown;
 }
@@ -44,9 +43,10 @@ a {
     color: rgb(83, 83, 83);
 }
 #canvas{
+    display: inline-block;
     margin: 0px;
     position: relative;
     height: 500px;
     width: 750px;
-    background-color: black;
+    background-color: rgb(92, 92, 92);
 }
