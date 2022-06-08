@@ -1,5 +1,7 @@
+var pieza;
 // funcion de inicializacion
 function iniciarPrototipo(){
+    pieza= new constructor(1);
     let main =document.getElementById("principal"); main.innerHTML = "";
     let c = main.insertBefore(document.createElement("canvas"),null); c.id = "canvas";
     gameSpace.iniciar();
@@ -14,7 +16,7 @@ var gameSpace = {
         
         this.ctx = this.canva.getContext("2d");
 
-        this.interval = setInterval(actualizar, 20);
+        this.interval = setInterval(actualizarFrame, 20);
     },
     limpiar: function(){
         this.ctx.clearRect(0,0,this.canva.width,this.canva.height);
@@ -25,12 +27,12 @@ function constructor(tipo){
     this.tipo = tipo,
     this.actualizar = function(){
         ctx = gameSpace.ctx;
-        ctx.fillStyle = color;
+        ctx.fillStyle = "red";
         ctx.fillRect(100, 100, 100, 100);
     }
 
 }
 function actualizarFrame(){
     gameSpace.limpiar();
-    constructor.actualizar();
+    pieza.actualizar();
 }
