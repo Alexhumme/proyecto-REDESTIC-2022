@@ -4,7 +4,8 @@ body{
 }
 #header{
     text-align: center;
-    background-color: gray;
+    background-color: rgb(58, 150, 226);
+    color:rgb(212, 91, 42);
     padding: 5px;
     margin: 0px;
 }
@@ -39,14 +40,15 @@ a {
     margin-bottom: 0px;
     text-align: center;
     padding: 15px;
-    background-color: gainsboro;
-    color: rgb(83, 83, 83);
+    background-color: rgb(63, 163, 190);
+    color: rgb(38, 84, 116);
 }
 #canvas{
+    border:solid 4px blue;
     display: inline-block;
     margin: 0px;
     position: relative;
     height: 500px;
-    width: 750px;
+    width: 500px;
     background-color: rgb(0, 0, 0);
 }
