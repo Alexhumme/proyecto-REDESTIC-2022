@@ -138,6 +138,13 @@ function constructor(tipo,x,y,ancho,alto){
     }
 
 }
+function prueba(capa1,capa2,tiempo,puntos,victoria){
+    this.capa1 = capa1;
+    this.capa2 = capa2;
+    this.tiempo = tiempo;
+    this.puntos = puntos;
+    this.victoria = victoria; 
+}
 function gp(){
     if(
         ((Nv2[0].x == Nv1[18].x &&

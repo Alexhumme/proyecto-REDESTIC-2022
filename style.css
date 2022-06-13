@@ -29,6 +29,8 @@ a {
 #principal{
     text-align: center;
     margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
 .menuPrincipalItem:hover{
     margin-inline: 10px;
@@ -40,11 +42,11 @@ a {
     margin-bottom: 0px;
     text-align: center;
     padding: 15px;
-    background-color: rgb(63, 163, 190);
+    background-color: rgb(58, 150, 226);
     color: rgb(38, 84, 116);
 }
 #canvas{
-    border:solid 4px blue;
+    border:solid 4px rgb(58, 150, 226);
     display: inline-block;
     margin: 0px;
     position: relative;
